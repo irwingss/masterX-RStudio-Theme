@@ -1,6 +1,6 @@
 # Tema Primolius
 
-Un tema claro, sencillo y distintivo para visualizar el código sin cansarse demasiado. Este es el tema oficial del grupo [RLatinoamérica](https://web.facebook.com/groups/686154108929440) en 2020-2021, del [Instituto de Ciencias Antonio Brack](https://www.brackinstitute.com/)
+Un tema claro, sencillo y distintivo para visualizar el código sin cansarse demasiado. Este es el tema oficial del grupo [RLatinoamérica](https://web.facebook.com/groups/686154108929440) en 2020-2021, del [Instituto de Ciencias Antonio Brack](https://www.brackinstitute.com/).
 
 ![](figs/Primolius.png)
 
