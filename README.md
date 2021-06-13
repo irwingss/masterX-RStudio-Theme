@@ -4,11 +4,11 @@ Un tema claro, sencillo y distintivo para visualizar el código sin cansarse dem
 
 ![](figs/Primolius.png)
 
-## Installation
+## Instalación
 
 Necesitarás la versión de RStudio version 1.2. o más reciente. Descarga [la versión más reciente aquí](https://www.rstudio.com/products/rstudio/download/preview/).
 
-Run the following code in RStudio to download and apply the theme.
+Ejecuta el siguiente código en un script de RStudio para descargar, instalar y aplicar el tema. 
 
 ```r
 tema_Primolius <- fs::path_temp("tema_Primolius", ext = "rstheme")
