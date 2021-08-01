@@ -19,7 +19,7 @@ rstudioapi::addTheme(tema_Primolius, apply = TRUE)
 
 ### Tema Oscuro
 ```r
-tema_Primolius <- fs::path_temp("tema_Primolius", ext = "rstheme")
-download.file("https://raw.githubusercontent.com/irwingss/Primolius-Theme/main/Primolius_Color.rstheme",tema_Primolius)
+tema_Primolius <- fs::path_temp("tema_Primolius_dark", ext = "rstheme")
+download.file("https://raw.githubusercontent.com/irwingss/Primolius-Theme/main/Primolius_Dark.rstheme",tema_Primolius)
 rstudioapi::addTheme(tema_Primolius, apply = TRUE)
 ```
