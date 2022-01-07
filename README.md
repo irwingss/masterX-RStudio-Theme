@@ -21,7 +21,7 @@ rstudioapi::addTheme(tema_BrackInstitute, apply = TRUE)
 
 ### Tema Primolius Claro (2021)
 
-![](figs/Primolius.png)
+![](figs/PrimoliusClaro.png)
 
 ```r
 install.packages("rstudioapi")
@@ -32,7 +32,7 @@ rstudioapi::addTheme(tema_Primolius, apply = TRUE)
 
 ### Tema Primolius Oscuro (2021)
 
-![](figs/PrimoliusDark.png)
+![](figs/PrimoliusOscuro.png)
 
 ```r
 install.packages("rstudioapi")
