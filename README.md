@@ -14,7 +14,7 @@ Ejecuta el siguiente código en un script de RStudio para descargar, instalar y 
 
 ```r
 install.packages("rstudioapi")
-tema_Primolius <- fs::path_temp("tema_BrackInstitute", ext = "tmTheme")
+tema_BrackInstitute <- fs::path_temp("tema_BrackInstitute", ext = "tmTheme")
 download.file("https://raw.githubusercontent.com/irwingss/Primolius-Theme/main/BrackInstitute.tmTheme",tema_BrackInstitute)
 rstudioapi::addTheme(tema_BrackInstitute, apply = TRUE)
 ```
