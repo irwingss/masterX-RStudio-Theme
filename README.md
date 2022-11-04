@@ -15,6 +15,7 @@ Ejecuta el siguiente código en un script de RStudio para descargar, instalar y 
 ```r
 install.packages("rstudioapi")
 install.packages("xml2")
+install.packages("fs")
 tema_BrackInstitute <- fs::path_temp("tema_BrackInstitute", ext = "tmTheme")
 download.file("https://raw.githubusercontent.com/irwingss/Primolius-Theme/main/BrackInstitute.tmTheme",tema_BrackInstitute)
 rstudioapi::addTheme(tema_BrackInstitute, apply = TRUE)
@@ -27,6 +28,7 @@ rstudioapi::addTheme(tema_BrackInstitute, apply = TRUE)
 ```r
 install.packages("rstudioapi")
 install.packages("xml2")
+install.packages("fs")
 tema_Primolius <- fs::path_temp("tema_Primolius", ext = "rstheme")
 download.file("https://raw.githubusercontent.com/irwingss/Primolius-Theme/main/Primolius_Color.rstheme",tema_Primolius)
 rstudioapi::addTheme(tema_Primolius, apply = TRUE)
@@ -39,6 +41,7 @@ rstudioapi::addTheme(tema_Primolius, apply = TRUE)
 ```r
 install.packages("rstudioapi")
 install.packages("xml2")
+install.packages("fs")
 tema_Primolius_D <- fs::path_temp("tema_Primolius_dark", ext = "rstheme")
 download.file("https://raw.githubusercontent.com/irwingss/Primolius-Theme/main/Primolius_Dark.rstheme", tema_Primolius_D)
 rstudioapi::addTheme(tema_Primolius_D, apply = TRUE)
