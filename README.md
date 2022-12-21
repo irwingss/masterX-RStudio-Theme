@@ -16,6 +16,6 @@ Ejecuta el siguiente código en un script de RStudio para descargar, instalar y 
 install.packages("rstudioapi")
 install.packages("xml2")
 install.packages("fs")
-rstudioapi::addTheme("https://raw.githubusercontent.com/irwingss/Primolius-Theme/main/tema_masterx.rstheme", 
+rstudioapi::addTheme("https://raw.githubusercontent.com/irwingss/masterX-RStudio-Theme/main/tema_masterx.rstheme", 
                      apply = TRUE)
 ```
