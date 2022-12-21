@@ -10,7 +10,7 @@ Ejecuta el siguiente código en un script de RStudio para descargar, instalar y 
 
 ### Tema masterX (2023)
 
-![](figs/masterXtema.png)
+![](masterXtema.png)
 
 ```r
 install.packages("rstudioapi")
