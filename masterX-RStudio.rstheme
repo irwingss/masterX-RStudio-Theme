@@ -721,7 +721,7 @@
 }
 
 .ace_entity.ace_name.ace_tag, .ace_entity.ace_other.ace_attribute-name, .ace_meta.ace_tag, .ace_string.ace_regexp, .ace_variable {
-  color: #ff5874;
+  color: #1bc0f2;
 }
 
 .ace_layer {
@@ -743,11 +743,42 @@
 
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_active-line,
 .rstudio-themes-flat.rstudio-themes-dark-menus .ace_editor.ace_autocomplete .ace_marker-layer .ace_line-hover {
-   background: rgba(255, 255, 255, 0.15);
+   background: #b0b0b0;
    border: none
 } 
 
 .ace_marker-layer .ace_active-line {
   background: #010e1a;
   position: absolute;
+}
+
+.token.property, .token.tag, .token.constant, .token.symbol, .token.deleted, .token.operator, .token.punctuation {
+    color:  #d885ff;
+}
+
+.token.boolean {
+    color:  #fc4277;
+}
+
+.token.number {
+    color: #ffbb00;
+}
+
+.rstudio-themes-dark.editor_dark.ace_editor_theme pre, .rstudio-themes-dark.editor_dark.ace_editor_theme pre code {
+    background-color: #17293a!important;
+    color: #f0f0f0!important;
+    filter: none !important;
+}
+
+.rstudio-themes-dark.editor_dark.ace_editor_theme .code-toolbar {
+    background-color: #17293a!important;
+    border: 2px solid #17293a!important;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-thumb, .rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 15px;
+    background: rgb(213 222 235);
+    border: solid 3px rgb(47 57 65);
 }
