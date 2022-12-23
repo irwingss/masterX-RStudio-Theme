@@ -782,3 +782,9 @@
     background: rgb(213 222 235);
     border: solid 3px rgb(47 57 65);
 }
+
+.rstudio-themes-dark.rstudio-themes-scrollbars ::-webkit-scrollbar-thumb, .rstudio-themes-dark.rstudio-themes-scrollbars::-webkit-scrollbar-thumb, .rstudio-themes-dark-menus .rstudio-themes-scrollbars ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 15px;
+    background: rgb(213 222 235);
+    border: solid 3px rgb(47 57 65);
+}
